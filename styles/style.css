@@ -1,0 +1,324 @@
+   /* Tsewang D Sherpa 
+   IT202 - 001
+   Nov 10, 2022 
+   Semester Phase 2  */
+   body {
+     font-size: 1em;
+     color: rgb(54, 0, 25);
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: Helvetica, sans-serif, "Times New Roman", Times, serif;
+     background-color: #91aded;
+   }
+
+   .logo img {
+     margin-top: 1.5%;
+     margin-bottom: -25px;
+     width: 400px;
+     height: 120px;
+     padding: 0.3%;
+   }
+
+   .small {
+     opacity: 0.9;
+   }
+
+   .small:hover {
+     opacity: 1;
+     cursor: pointer;
+   }
+
+   h1 {
+     display: inline-block;
+     height: 50px;
+     padding-top: 20px;
+     margin-bottom: -10px;
+     text-decoration: underline;
+     line-height: 30px;
+     font-size: 3em;
+     color: #ffffff;
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-shadow: 2px 5px 4px #0d0a12ab;
+   }
+
+   header {
+     margin-top: -20px;
+   }
+
+   /* navigation css */
+   nav ul {
+     box-sizing: border-box;
+     padding: 15px;
+     list-style: none;
+     background-color: #5d6dd3;
+   }
+
+   nav ul li {
+     display: inline-block;
+     box-sizing: border-box;
+     font-size: 1.2em;
+     font-weight: lighter;
+     background-color: rgb(150, 186, 207);
+     box-shadow: 0px 10px 5px #21273e;
+     cursor: pointer;
+   }
+
+   nav ul li a {
+     display: block;
+     box-sizing: border-box;
+     border: 1px solid rgb(80, 165, 0);
+     text-decoration: none;
+     border-radius: 1%;
+     text-transform: uppercase;
+     padding: 10px;
+   }
+
+   nav ul li:hover,
+   nav ul li a:hover {
+     font-size: 1.3em;
+     background-color: #f7f7f7;
+     transition: 100ms;
+     font-family: Cambria;
+     font-weight: bolder;
+     color: rgb(0, 179, 255);
+     box-shadow: 0px 7px 20px 5px rgba(228, 228, 228, 0.656);
+   }
+
+   /* home section */
+
+   section {
+     display: inline-block;
+     text-align: center;
+     font-weight: 300;
+     line-height: 1.5em;
+     padding: 1.5em;
+     height: 100%;
+     width: 50%;
+     margin-top: -40px;
+     margin-bottom: -30px;
+   }
+
+   .bookList {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background: linear-gradient(0.3turn, #3f87a6, #ebf8e1, #3f87a6);
+
+     padding-bottom: 20px;
+   }
+
+   .books {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding-bottom: 20px;
+   }
+
+   .small figure,
+   .large figure {
+     margin: 0px 10px;
+     padding: 0px;
+     margin-top: 30px;
+   }
+
+   .small img {
+     padding: 5px;
+     width: 150px;
+     height: 200px;
+     box-shadow: 0px 6px 5px rgb(54, 52, 49);
+     margin-bottom: 1em;
+   }
+
+   .large img {
+     margin: 0px 30px;
+     width: 160px;
+     height: 240px;
+     box-shadow: 0px 4px 5px rgb(54, 52, 49);
+     margin-bottom: 1em;
+   }
+
+   .bookList figure img:hover {
+     transform: scale(1.2) translateY(-30px);
+     box-shadow: 0px 4px 15px rgba(54, 54, 53, 0.5);
+     transition: 200ms ease-in-out;
+   }
+
+   footer {
+     margin-top: 2em;
+     padding-bottom: 2em;
+   }
+
+   /* create */
+   .TableContent {
+     margin: 0px 0px;
+     width: 1000px;
+     padding: 50px;
+     background: linear-gradient(0.3turn, #d2d4c6, #e7e8db, #d2d4c6);
+
+   }
+
+   table {
+     margin: auto;
+     border-collapse: collapse;
+     border: 1px solid rgb(18, 19, 15);
+     box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.191);
+   }
+
+   tr {
+     border: 1px solid rgb(18, 19, 15);
+   }
+
+   tr th {
+     background-color: #00a96b;
+     color: white;
+     text-align: center;
+     border: 1px solid rgb(18, 19, 15);
+     padding: 1.25em;
+     font-size: 1.9em;
+     margin: 500px;
+   }
+
+   tr td {
+     border: 1px solid rgb(18, 19, 15);
+     padding: 0.2em 2em;
+     font-size: small;
+
+   }
+
+   tbody tr:last-of-type {
+     border-bottom: 0.5em solid #00a96b;
+   }
+
+   tbody tr:hover {
+     background-color: #7c94e9;
+     color: white;
+     cursor: pointer;
+   }
+
+   table tr td img {
+     padding: 2px;
+     width: 37.5px;
+     height: 50px;
+     box-shadow: 0px 0px 3px 0.1px black;
+   }
+
+   tbody tr:hover {
+     transform: translate(-5px, 0px);
+     font-weight: bolder;
+     background-color: #65b3d4;
+     box-shadow: 8px 7px 3px 0.1px rgb(56, 69, 103);
+   }
+
+   legend {
+     display: block;
+     width: 50%;
+     margin: auto;
+     width: 60%;
+     padding: 10px;
+     margin-bottom: 1em;
+     background-color: #e7e8db;
+     font-size: larger;
+     text-transform: uppercase;
+     box-shadow: 0px 4px 20px 4px rgb(35, 57, 35);
+     background: linear-gradient(0.3turn, #aad88e, #ebf8e1, #aad88e);
+   }
+
+   h2,
+   fieldset {
+     z-index: -2;
+     display: block;
+     width: 50%;
+     margin: auto;
+     margin-bottom: 20px;
+     background-color: #d2d4c6;
+     box-shadow: 0px 20px 20px 0px rgba(54, 54, 53, 0.5);
+   }
+
+   input[type="submit"],
+   input[type="reset"] {
+     background-color: #00a96b;
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+     text-transform: uppercase;
+   }
+
+   input[type="submit"]:hover,
+   input[type="reset"]:hover {
+     font-size: 15px;
+     border-radius: 5%;
+     background-color: #00b774;
+     box-shadow: 0px 0px 10px 2px rgb(0, 79, 30);
+   }
+
+   .books .small:hover {
+     transform: translateY(-25px);
+   }
+
+   .location {
+     display: flex;
+     flex-direction: column;
+     border: 1px dashed black;
+     padding: 1em;
+     margin-top: -1em;
+   }
+
+   .location p {
+     margin: 2px;
+   }
+
+   #MailList {
+     margin-top: 1.5%;
+     font-weight: 500;
+     text-transform: uppercase;
+     width: 30%;
+     align-self: center;
+     padding: 2%;
+
+   }
+
+   #MailList:hover {
+     background-color: #5ea4c2;
+     cursor: pointer;
+   }
+
+
+   .contact ul li {
+     display: inline-block;
+     justify-content: center;
+     margin: 0px 5px;
+   }
+
+   .contact ul li a {
+     border: 1px solid rgb(12, 16, 146);
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bolder;
+     padding: 5px;
+     color: rgb(255, 228, 228);
+   }
+
+   .contact ul li a:hover {
+     background-color: #21273e;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+   }
+
+   .contact li {
+     display: inline;
+   }
+
+   .contact img {
+     width: 40px;
+     margin-bottom: 10px;
+   }
+
+   footer span {
+     font-size: 0.5em;
+     display: block;
+     margin-top: 1em;
+   }

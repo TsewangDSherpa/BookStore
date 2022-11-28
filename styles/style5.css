@@ -1,0 +1,156 @@
+   /* Tsewang D Sherpa 
+   IT202 - 001
+   Nov 26, 2022 
+   Semester Phase 3*/
+   body {
+       font-size: 1em;
+       color: rgb(54, 0, 25);
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       font-family: Helvetica, sans-serif, "Times New Roman", Times, serif;
+       background-color: #91aded;
+   }
+
+   main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+
+   h1 {
+       display: inline-block;
+       height: 50px;
+       padding-top: 20px;
+       margin-bottom: -10px;
+       text-decoration: underline;
+       line-height: 30px;
+       font-size: 3em;
+       color: #ffffff;
+       font-weight: bolder;
+       text-transform: uppercase;
+       text-shadow: 2px 5px 4px #0d0a12ab;
+   }
+
+   header {
+       margin-top: -20px;
+   }
+
+   /* navigation css */
+   nav ul {
+       box-sizing: border-box;
+       padding: 15px;
+       list-style: none;
+       background-color: #5d6dd3;
+   }
+
+   nav ul li {
+       display: inline-block;
+       box-sizing: border-box;
+       font-size: 1.2em;
+       font-weight: lighter;
+       background-color: rgb(150, 186, 207);
+       box-shadow: 0px 10px 5px #21273e;
+       cursor: pointer;
+   }
+
+   nav ul li a {
+       display: block;
+       box-sizing: border-box;
+       border: 1px solid rgb(80, 165, 0);
+       text-decoration: none;
+       border-radius: 1%;
+       text-transform: uppercase;
+       padding: 10px;
+   }
+
+   nav ul li:hover,
+   nav ul li a:hover {
+       font-size: 1.3em;
+       background-color: #f7f7f7;
+       transition: 100ms;
+       font-family: Cambria;
+       font-weight: bolder;
+       color: rgb(0, 179, 255);
+       box-shadow: 0px 7px 20px 5px rgba(228, 228, 228, 0.656);
+   }
+
+   /* home section */
+
+
+
+   /* create */
+   .TableContent {
+       margin: 0px 0px;
+       width: 1000px;
+       padding: 10px;
+       background: linear-gradient(0.3turn, #d2d4c6, #e7e8db, #d2d4c6);
+
+   }
+
+   table {
+       /* display: block; */
+       margin: auto;
+       border-collapse: collapse;
+       border: 1px solid rgb(18, 19, 15);
+       box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.191);
+   }
+
+   tr {
+       border: 1px solid rgb(18, 19, 15);
+
+   }
+
+   tr th {
+       background-color: #00a96b;
+       color: white;
+       text-align: center;
+       border: 1px solid rgb(18, 19, 15);
+       padding: 0.25em 0.2em;
+       font-size: 1.5em;
+       margin: 500px;
+   }
+
+   h2 {
+       background: linear-gradient(0.3turn, #9d9e95, #e7e8db, #9a9b95);
+       font-weight: 500px;
+       text-transform: uppercase;
+       color: green;
+   }
+
+   tr td {
+       border: 1px solid rgb(18, 19, 15);
+       padding: 0.2em 2em;
+       font-size: 1.0em;
+
+   }
+
+   tbody tr:last-of-type {
+       border-bottom: 0.5em solid #00a96b;
+   }
+
+   td:hover {
+       background-color: #7c94e9;
+       color: white;
+       cursor: pointer;
+   }
+
+
+   tbody tr:hover {
+       transform: translate(-5px, 0px);
+       font-size: 1.01em;
+       background-color: #65b3d4;
+       box-shadow: 8px 7px 3px 0.1px rgb(56, 69, 103);
+   }
+
+   input {
+       padding: 10px 25px;
+       background-color: #00a96b;
+       color: white;
+   }
+
+   input:hover {
+       cursor: pointer;
+
+   }
