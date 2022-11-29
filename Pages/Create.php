@@ -27,7 +27,7 @@ $statement->closeCursor();
     </div>
     <nav>
       <ul>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.php">Home</a></li>
         <li><a href="../Pages/Create.php">Create</a></li>
         <li><a href="../Pages/About.html">About</a></li>
         <li><a href="../Pages/Contact.html">Contact</a></li>
